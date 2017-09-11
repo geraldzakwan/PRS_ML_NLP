@@ -15,7 +15,8 @@ def fetch():
     try:
         chrome_options = Options()
         if(len(sys.argv) > 1):
-            chrome_options.add_argument("--headless")
+            if(sys.argv[1] == 'headless'):
+                chrome_options.add_argument("--headless")
         chrome_options.binary_location = 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
 
         driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver.exe"), chrome_options=chrome_options)
