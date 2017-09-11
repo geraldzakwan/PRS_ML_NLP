@@ -1,7 +1,8 @@
-url_ml = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
-url_nlp = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
-buttonid_ml = "form_save"
-buttonid_nlp = "form_save"
+url_ml = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/35414/matakuliah/34911#34911"
+url_nlp = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/35414/matakuliah/34912#34912"
+buttonid_ml = "form_add:124453"
+# <button type="submit" id="form_add:124455" name="form[add:124455]" class="btn btn-primary btn-sm btn btn-primary">Ambil</button>
+buttonid_nlp = "form_add:124455"
 JSESSIONID = "41BBB56BE00CC443A9FFE133CF78EA51"
 PHPSESSID = "ST-39371-zfIrXKvpHs0bpQg1EbNp-loginitbacid"
 _auth = "ina"

@@ -34,6 +34,7 @@ def fetch():
         if kirim_button.is_displayed():
             kirim_button.click()
 
+            # <button type="submit" id="form_add:124453" name="form[add:124453]" class="btn btn-primary btn-sm btn btn-primary">Ambil</button>
         # magnifying_glass = driver.find_element_by_id("js-open-icon")
         # if magnifying_glass.is_displayed():
         #   magnifying_glass.click()
@@ -47,6 +48,7 @@ def fetch():
         # search_field.send_keys(Keys.RETURN)
 
         # driver.close()
+        # print(driver.page_source)
         driver.quit()
         print("Job done")
     except Exception:
