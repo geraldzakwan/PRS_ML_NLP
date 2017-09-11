@@ -1,10 +1,8 @@
 url_ml = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/35414/matakuliah/34911#34911"
 url_nlp = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/35414/matakuliah/34912#34912"
 buttonid_ml = "form_add:124453"
-# <button type="submit" id="form_add:124455" name="form[add:124455]" class="btn btn-primary btn-sm btn btn-primary">Ambil</button>
 buttonid_nlp = "form_add:124455"
-JSESSIONID = "41BBB56BE00CC443A9FFE133CF78EA51"
-PHPSESSID = "ST-39371-zfIrXKvpHs0bpQg1EbNp-loginitbacid"
+PHPSESSID = "ST-45978-0QY64ofxthTR2cVwLNpA-loginitbacid"
 _auth = "ina"
-bahasa = "id"
-uitb = "YXIvbFmRpgRcN1svH6bxAg=="
+# bahasa = "id"
+uitb = "s3~CgoDDVm2y4od+FuGAxXcAg=="

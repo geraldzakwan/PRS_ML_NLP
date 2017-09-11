@@ -18,10 +18,10 @@ def fetch():
         driver.get(settings.url_nlp)
         driver.delete_all_cookies()
 
-        driver.add_cookie({'name': 'JSESSIONID', 'value': settings.JSESSIONID, 'domain': 'akademik.itb.ac.id'})
+        # driver.add_cookie({'name': 'JSESSIONID', 'value': settings.JSESSIONID, 'domain': 'akademik.itb.ac.id'})
         driver.add_cookie({'name': 'PHPSESSID', 'value': settings.PHPSESSID, 'domain': 'akademik.itb.ac.id'})
         driver.add_cookie({'name': '_auth', 'value': settings._auth, 'domain': 'akademik.itb.ac.id'})
-        driver.add_cookie({'name': 'bahasa', 'value': settings.bahasa, 'domain': 'akademik.itb.ac.id'})
+        # driver.add_cookie({'name': 'bahasa', 'value': settings.bahasa, 'domain': 'akademik.itb.ac.id'})
         driver.add_cookie({'name': 'uitb', 'value': settings.uitb, 'domain': 'akademik.itb.ac.id'})
 
         driver.get(settings.url_nlp)
@@ -60,6 +60,8 @@ def fetch():
 if __name__ == '__main__':
     while(True):
         fetch()
+        if(len(sys.argv) > 2):
+            time.sleep(int(sys.argv[2]))
 
     # schedule.every(0.1).minutes.do(fetch)
     #
