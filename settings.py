@@ -1,5 +1,7 @@
 url_ml = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
 url_nlp = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
+buttonid_ml = "form_save"
+buttonid_nlp = "form_save"
 JSESSIONID = "41BBB56BE00CC443A9FFE133CF78EA51"
 PHPSESSID = "ST-39371-zfIrXKvpHs0bpQg1EbNp-loginitbacid"
 _auth = "ina"
