@@ -1,3 +1,7 @@
+try:
+    from BeautifulSoup import BeautifulSoup
+except ImportError:
+    from bs4 import BeautifulSoup
 import sys
 import os
 import time
@@ -34,19 +38,12 @@ def fetch():
         if kirim_button.is_displayed():
             kirim_button.click()
 
-        # magnifying_glass = driver.find_element_by_id("js-open-icon")
-        # if magnifying_glass.is_displayed():
-        #   magnifying_glass.click()
-        # else:
-        #   menu_button = driver.find_element_by_css_selector("a.")
-        #   menu_button.click()
-        #
-        # search_field = driver.find_element_by_id("site-search")
-        # search_field.clear()
-        # search_field.send_keys("Olabode")
-        # search_field.send_keys(Keys.RETURN)
-
         # driver.close()
+        html = driver.page_source
+        parsed_html = BeautifulSoup(html, 'lxml')
+        # print(parsed_html)
+        print (parsed_html.body.find('span', attrs={'data-notify':'message'}).text)
+
         driver.quit()
         print("Job done")
     except Exception:
