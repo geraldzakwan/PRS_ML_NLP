@@ -1,2 +1,4 @@
 # PRS_ML_NLP
-Bismillah dapet please keduanya
+
+ML Dapet
+Tinggal NLP
