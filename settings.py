@@ -1,0 +1,7 @@
+url_ml = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
+url_nlp = "https://akademik.itb.ac.id/app/mahasiswa:13514065+2017-1/registrasi/rencanastudi"
+JSESSIONID = "41BBB56BE00CC443A9FFE133CF78EA51"
+PHPSESSID = "ST-39371-zfIrXKvpHs0bpQg1EbNp-loginitbacid"
+_auth = "ina"
+bahasa = "id"
+uitb = "YXIvbFmRpgRcN1svH6bxAg=="
